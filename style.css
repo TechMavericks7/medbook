@@ -271,12 +271,43 @@ body {
     background-color: #ffffff;
     color: #2c7bfe;
 
+ .column{
+    width: 100%;
+    /* border: 1px solid orange; */
+    padding: 0 1cm 1cm 1cm;
+    text-align: center;
+
+}
+
+ .card{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    padding: 1em 0.5em;
+    background: linear-gradient(#ffffff 50% ,#2c7bfe 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0,0,0,0.12);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.row .column .card h3{    
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+}
+.row .column .card p{
+    color:#575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 .card:hover h3{
     color:#ffffff
 
 }
-
 
 @media screen and (min-width:768px){
     #features{
