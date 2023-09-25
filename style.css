@@ -100,6 +100,7 @@ body {
  
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
  
 
 }
@@ -116,6 +117,9 @@ body {
  
 .hero {
   animation: fadeIn 3s ease; /*  fadeIn animation with a duration of 1 second */
+=======
+
+>>>>>>> e7bf02edea2fb2c61ba59bc3f436fbaceaf9edc7
 }
 
 
@@ -304,10 +308,17 @@ body {
     color:#ffffff
 
 }
+<<<<<<< HEAD
  .card:hover p{
     color: #f0f0f0;
 
 } 
+=======
+/* .card:hover p{
+    color: #f0f0f0;
+
+} */
+>>>>>>> e7bf02edea2fb2c61ba59bc3f436fbaceaf9edc7
 
 @media screen and (min-width:768px){
     #features{
@@ -444,6 +455,7 @@ body {
 .text-align-justify {
   text-align: justify;
 }
+<<<<<<< HEAD
 
 
 
@@ -587,3 +599,5 @@ body {
    margin-left: 0;
  }
 }
+=======
+>>>>>>> e7bf02edea2fb2c61ba59bc3f436fbaceaf9edc7
